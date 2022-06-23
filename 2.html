@@ -1,27 +1,94 @@
 <!doctype html>
 <html>
+
 <head>
-  <title>WEB - CSS</title>
-  <meta charset="utf-8">
-  <link rel="stylesheet" href="style.css">
+    <title>오찬영의 포트폴리오</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-  <h1><a href="index.html">WEB</a></h1>
-  <div id="grid">
-    <ol>
-    <div id="title">title</div>
-    <div id ="menu">
-      <div><a href="1.html">HTML</a></div>
-      <div><a href="2.html">CSS</a></div>
-      <div><a href="3.html">JavaScript</a></div>
+    <h1>
+        <a href="index.html">
+            <div class="content" id="main">
+                <svg width=1000 height=200 viewBox="0 0 800 200">
+                    <text x="40" y="75%">오</text>
+                    <text x="120" y="70%">찬</text>
+                    <text x="200" y="70%">영</text>
+                    <text x="280" y="70%">의</text>
+                    <text x="360" y="75%">포</text>
+                    <text x="440" y="80%">트</text>
+                    <text x="520" y="75%">폴</text>
+                    <text x="600" y="70%">리</text>
+                    <text x="680" y="75%">오</text>
+                </svg>
+        </a>
+    </h1>
     </div>
-    </ol>
-    <div id="article">
-        <h2>CSS</h2>
+    <div id="grid">
+        <ol>
+            <div id="title">MENU</div>
+            <div id="menu">
+                <a href="#main" title="Main으로 이동">MAIN</a>
+                <a href="#home" title="Home으로 이동">Home</a>
+                <a href="#about" title="About으로 이동">ABOUT</a>
+                <a href="#skills" title="skills로 이동">SKILLS</a>
+            </div><!--//menu-->
+            <div id="vacuum"></div>
+            <div class="floating">
+            <div id="title2">INTRO</div>
+            <div class="hover_effect_box hover_effect_1">
+                <div class="content_bg">
+                    <img src="./imgs/html5.png" style="max-width: 100%; height: auto;">
+                </div>
+                <div class="caption">
+                    <div class="caption_title">HTML5</div>
+                    <div class="caption_desc">
+                      WWW를 통해 제공되는 정보를 나타낼 목적으로 사용되는 마크업 언어이다
+                    </div>
+                    <a href="1.html" class="caption_link">더 보기</a>
+                </div>
+            </div>
+            <div class="hover_effect_box hover_effect_1">
+                <div class="content_bg">
+                    <img src="./imgs/css3.png" style="max-width: 100%; height: auto;">
+                </div>
+                <div class="caption">
+                    <div class="caption_title">CSS3</div>
+                    <div class="caption_desc">
+                        Markup language 언어가 실제 표시되는 방법을 기술하는 스타일 언어이다
+                    </div>
+                    <a href="2.html" class="caption_link">더 보기</a>
+                </div>
+            </div>
+            <div class="hover_effect_box hover_effect_1">
+                <div class="content_bg">
+                    <img src="./imgs/java.jpg" style="max-width: 100%; height: auto;">
+                </div>
+                <div class="caption">
+                    <div class="caption_title">JAVA</div>
+                    <div class="caption_desc">
+                        객체 지향적 프로그래밍 언어이다
+                    </div>
+                    <a href="3.html" class="caption_link">더 보기</a>
+                </div>
+            </div>
+            </div>
+        </ol>
+        <div id="article">
+          <h2>CSS</h2>
         <p>
           Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a markup language.[1] Although most often used to set the visual style of web pages and user interfaces written in HTML and XHTML, the language can be applied to any XML document, including plain XML, SVG and XUL, and is applicable to rendering in speech, or on other media. Along with HTML and JavaScript, CSS is a cornerstone technology used by most websites to create visually engaging webpages, user interfaces for web applications, and user interfaces for many mobile applications.
         </p>
-      </div>
-  </div>
-  </body>
-  </html>
+            <div id ="footer">
+              <div id="footer-menu">
+                  <a href="#main" title="Main으로 이동">MAIN</a>
+                  <a href="#home" title="Home으로 이동">HOME</a>
+                  <a href="#about" title="About으로 이동">ABOUT</a>
+                  <a href="#skills" title="skills로 이동">SKILLS</a>
+              </div><!--//footer-menu-->
+            </div>
+          </div>
+        </div>
+</body>
+</html>
