@@ -29,6 +29,78 @@ ol {
 #grid #article {
   padding-left:60px;
 }
+.bttn-default {
+  color: #fff;
+}
+.bttn-primary,
+.bttn,
+.bttn-md {
+  color: #1d89ff;
+}
+.bttn-warning {
+  color: #feab3a;
+}
+.bttn-danger {
+  color: #ff5964;
+}
+.bttn-success {
+  color: #28b78d;
+}
+.bttn-royal {
+  color: #bd2df5;
+}
+.bttn,
+.bttn-lg,
+.bttn-md,
+.bttn-sm,
+.bttn-xs {
+  margin: 0;
+  padding: 0;
+  border-width: 0;
+  border-color: transparent;
+  background: transparent;
+  font-weight: 400;
+  cursor: pointer;
+  position: relative;
+}
+.bttn-md {
+  font-size: 20px;
+  font-family: inherit;
+  padding: 5px 12px;
+}
+.bttn-simple {
+  margin: 0;
+  padding: 0;
+  border-width: 0;
+  border-color: transparent;
+  background: transparent;
+  font-weight: 400;
+  cursor: pointer;
+  position: relative;
+  font-size: 20px;
+  font-family: inherit;
+  padding: 5px 12px;
+  overflow: hidden;
+  border-width: 0;
+  border-radius: 4px;
+  background: rgba(255,255,255,0.4);
+  color: #fff;
+  -webkit-transition: all 0.3s cubic-bezier(0.02, 0.01, 0.47, 1);
+  transition: all 0.3s cubic-bezier(0.02, 0.01, 0.47, 1);
+}
+.bttn-simple:hover,
+.bttn-simple:focus {
+  opacity: 0.75;
+}
+.bttn-simple.bttn-md {
+  font-size: 20px;
+  font-family: inherit;
+  padding: 5px 20px;
+  border-radius: 20px;
+}
+.bttn-simple.bttn-primary {
+  background: #C8A5C4;
+}
 #grid #title {
   padding:15px 10px 15px 20px; /* 내부여백 padding값 순서대로 top right bottom left */
   line-height:20px; /*박스 높이*/
@@ -368,7 +440,6 @@ p.border:before, p.border:after {
 #about {
   width:100%;
   height:auto;
-  background:#fff;
   position:relative;
 }
 #about .desc_box {
